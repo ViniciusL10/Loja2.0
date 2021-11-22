@@ -1,0 +1,12 @@
+package classes;
+
+public class Executa {
+
+	public static void main(String[] args) {
+		
+		ClasseCarro carro = new ClasseCarro();
+		carro.setNumChassi("12312vsdsa12");
+		System.out.println(carro.getNumChassi());
+	}
+
+}

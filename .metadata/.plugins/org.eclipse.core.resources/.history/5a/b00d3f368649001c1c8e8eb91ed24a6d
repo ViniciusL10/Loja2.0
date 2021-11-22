@@ -1,0 +1,17 @@
+package atividades;
+
+import java.util.Scanner;
+
+public class ExercicioBootcamp {
+	public static void main(String[] args) {
+		int contador, limite, result;
+		
+		contador = 0;
+		limite = 10;
+		
+		do{
+			result = 9 * contador;
+			System.out.println("9 x " + contador + " = " + result);
+		}while(contador >= limite);
+	}
+}

@@ -1,0 +1,19 @@
+package entidades;
+
+import entidadesenum.TipoCliente;
+
+public class Cliente {
+	private String nome;
+	private String documento;
+	private Integer cadastro;
+	
+	private TipoCliente tipoCliente;
+
+	public Cliente(String nome, String documento, Integer cadastro, TipoCliente tipoCliente) {
+		this.nome = nome;
+		this.documento = documento;
+		this.cadastro = cadastro;
+		this.tipoCliente = tipoCliente;
+	} 
+	
+}

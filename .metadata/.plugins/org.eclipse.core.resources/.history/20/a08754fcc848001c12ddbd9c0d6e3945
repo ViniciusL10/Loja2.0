@@ -1,0 +1,15 @@
+package classes;
+
+import java.util.Scanner;
+
+public class Inicio {
+	public static void main(String[] args) {
+		double nota1,nota2,nota3,nota4,media;
+		String aluno;
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Digite o nome do aluno : " );
+		aluno = s.nextLine();
+	}
+}

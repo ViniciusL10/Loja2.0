@@ -1,0 +1,12 @@
+package atividade;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public class Parcela {
+	private Integer numero;
+	private BigDecimal ValorParcela;
+	private LocalDate DataVenc;
+	
+	
+}

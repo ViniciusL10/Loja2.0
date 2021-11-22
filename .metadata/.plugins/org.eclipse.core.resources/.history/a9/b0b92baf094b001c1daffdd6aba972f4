@@ -1,0 +1,18 @@
+package entidadesenum;
+
+public enum TipoCliente {
+	PESSOA_FISICA(1),
+	PESSOA_JURIDICA(2),
+	PESSOA_ESTRANGEIRA(3);
+	
+	private int id;
+	private String descricao;
+	
+	
+	private TipoCliente(int id, String descricao) {
+		this.id = id;
+		this.descricao = descricao;
+	}
+	
+	
+}

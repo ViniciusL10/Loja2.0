@@ -1,0 +1,16 @@
+package classes;
+
+import java.util.Scanner;
+
+public class Executa {
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno("Joao", 8);
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Informe seu nome: ");
+		String nome = s.nextLine();
+		
+		System.out.println("Informe seu média: ");
+		double media = s.nextDouble();
+	}
+}

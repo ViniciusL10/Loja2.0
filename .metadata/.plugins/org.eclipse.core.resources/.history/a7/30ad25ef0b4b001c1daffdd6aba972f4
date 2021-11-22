@@ -1,0 +1,9 @@
+package entidades;
+
+public class Produto {
+	private Integer preco;
+	private Integer codigo;
+	private String descricao;
+	
+	
+}

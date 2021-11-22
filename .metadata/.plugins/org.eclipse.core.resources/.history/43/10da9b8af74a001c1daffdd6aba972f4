@@ -1,0 +1,35 @@
+package atividade;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.Month;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Pagamento {
+	private List<Parcela> listaParcelas = new ArrayList<>();
+	
+	private void gerarData(LocalDate data) {
+		int mes = data.getMonthValue();
+		
+	}
+	
+	private List<Parcela> gerarParcela(Double valorTotal, Integer numParcela){
+		BigDecimal valorParcela = BigDecimal.valueOf(valorTotal / numParcela) ;
+		for (int i = 0; i < numParcela; i++) {
+			listaParcelas.add(new Parcela(valorParcela, LocalDate.of(2021, Month.NOVEMBER, 10)));
+		}
+		return listaParcelas;
+	}
+
+	public List<Parcela> getParcelas() {
+		return listaParcelas;
+	}
+
+	public void addParcelas(Parcela parcela) {
+		listaParcelas.add(parcela);
+	}
+	public void removeParcelas(Parcela parcela) {
+		listaParcelas.remove(parcela);
+	}
+}

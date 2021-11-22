@@ -1,0 +1,19 @@
+package classes;
+
+public class Casa {
+	//atributos
+	public float areaTerreno;
+	public String cor;
+	public int qntdQuartos;
+	public int qntdBanheiros;
+	
+	
+	// metodos
+	public void abrirPorta() {
+		
+	}
+	public void abrirPortaGaragem() {
+		
+	}
+	
+}

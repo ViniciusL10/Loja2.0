@@ -1,0 +1,30 @@
+package classes;
+
+import java.util.Scanner;
+
+public class Inicio {
+	public static void main(String[] args) {
+		double nota1,nota2,nota3,nota4,media;
+		String aluno;
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Digite o nome do aluno : " );
+		aluno = s.nextLine();
+		System.out.println("----------------------");
+		System.out.println("Digite a nota 1°: ");
+		nota1 = s.nextDouble();
+		System.out.println("Digite a nota 2°: ");
+		nota2 = s.nextDouble();
+		System.out.println("Digite a nota 3°: ");
+		nota3 = s.nextDouble();
+		System.out.println("Digite a nota 4°: ");
+		nota4 = s.nextDouble();
+		
+		media = (nota1 + nota2 + nota3 + nota4)/4;
+		System.out.println("A média do aluno " + aluno + " é : " + media);
+		media = s.nextDouble();
+		System.out.println("----------------------");
+		
+	}
+}

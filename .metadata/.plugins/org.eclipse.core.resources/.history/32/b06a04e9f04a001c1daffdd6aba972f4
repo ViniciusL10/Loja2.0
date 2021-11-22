@@ -1,0 +1,32 @@
+package atividade;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Parcela {
+	private BigDecimal valorParcela;
+	private LocalDate dataVencimento;
+	
+	public List<Parcela> gerarParcela(Double valorTotal, Integer numParcela){
+		List<Parcela> listaParcela = new ArrayList<>();
+		double valorParcela = valorTotal / numParcela;
+		return listaParcela;
+	}
+	
+	public BigDecimal getValorParcela() {
+		return valorParcela;
+	}
+	public void setValorParcela(BigDecimal valorParcela) {
+		this.valorParcela = valorParcela;
+	}
+	public LocalDate getDataVencimento() {
+		return dataVencimento;
+	}
+	public void setDataVencimento(LocalDate dataVencimento) {
+		this.dataVencimento = dataVencimento;
+	}
+	
+	
+}

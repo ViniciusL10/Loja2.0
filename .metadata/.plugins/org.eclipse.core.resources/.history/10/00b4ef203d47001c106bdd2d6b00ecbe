@@ -1,0 +1,23 @@
+package escola;
+
+public class Aluno extends Pessoa{
+	private int matricula;
+	
+	
+	
+	public Aluno(int matricula) {
+		super();
+		this.matricula = matricula;
+		
+	}
+
+	public int getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(int matricula) {
+		this.matricula = matricula;
+	}
+	
+	
+}

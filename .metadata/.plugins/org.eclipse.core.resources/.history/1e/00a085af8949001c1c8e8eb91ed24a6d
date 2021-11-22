@@ -1,0 +1,22 @@
+package atividades;
+
+import java.util.Scanner;
+
+public class ExercicioBootcamp {
+	public static void main(String[] args) {
+		int escolha, contador, limite, result;
+		
+		Scanner s = new Scanner(System.in);
+		
+		contador = 0;
+		limite = 10;
+		
+		do{
+			result = 9 * contador;
+			System.out.println("Informe a tabuada que você deseja: ");
+			escolha = s.nextInt();
+			System.out.println(escolha + contador + " = " + result);
+			contador++;
+		}while(contador <= limite);
+	}
+}

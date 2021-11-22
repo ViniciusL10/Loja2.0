@@ -1,0 +1,10 @@
+package atividades;
+
+public class ExercicioBootcamp {
+	public static void main(String[] args) {
+		double venda1, venda2, venda3, venda4;
+		String vendedor;
+		
+		
+	}
+}

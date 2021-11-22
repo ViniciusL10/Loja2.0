@@ -1,0 +1,28 @@
+package servicos;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import javax.swing.JOptionPane;
+
+import entidades.Cliente;
+import entidadesenum.TipoCliente;
+
+public class CadastroCliente {
+	private List<Cliente> listaClientes = new ArrayList<>();
+	
+	public void adicionar() {
+		Random gerador = new Random();
+		int cadastro = gerador.nextInt(100);
+			
+				
+	}
+	public void alterar() {
+		
+	}
+	public void excluir() {
+		
+	}
+}
+

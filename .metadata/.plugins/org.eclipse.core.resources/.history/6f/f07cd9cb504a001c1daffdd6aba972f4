@@ -1,0 +1,8 @@
+
+public class Parcela {
+	Integer numero;
+	BigDecimal ValorParcela;
+	LocalDate DataVenc;
+	
+	
+}

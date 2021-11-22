@@ -1,0 +1,12 @@
+package entidades;
+
+import entidadesenum.TipoCliente;
+
+public class Cliente {
+	private String nome;
+	private String documento;
+	private int cadastro;
+	
+	private TipoCliente tipoCliente; 
+	
+}

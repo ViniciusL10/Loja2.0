@@ -1,0 +1,31 @@
+package atividade;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public class Parcela {
+	private Integer valorCompra;
+	private BigDecimal ValorParcela;
+	private LocalDate DataVenc;
+	
+	public Integer getValorCompra() {
+		return valorCompra;
+	}
+	public void setCompra(Integer valorCompra) {
+		this.valorCompra = valorCompra;
+	}
+	public BigDecimal getValorParcela() {
+		return ValorParcela;
+	}
+	public void setValorParcela(BigDecimal valorParcela) {
+		ValorParcela = valorParcela;
+	}
+	public LocalDate getDataVenc() {
+		return DataVenc;
+	}
+	public void setDataVenc(LocalDate dataVenc) {
+		DataVenc = dataVenc;
+	}
+	
+	
+}

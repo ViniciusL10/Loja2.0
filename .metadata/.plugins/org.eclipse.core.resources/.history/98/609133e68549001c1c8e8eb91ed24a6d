@@ -1,0 +1,30 @@
+package atividades;
+
+import java.util.Scanner;
+
+public class ExercicioBootcamp {
+	public static void main(String[] args) {
+		double venda1, venda2, venda3, venda4, mediaVenda;
+		String vendedor;
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Informe seu nome para entrar no sistema de vendas: ");
+		vendedor = s.nextLine();
+		
+		System.out.println("----------------------------------------");
+		System.out.println("Informe a venda do mês de Janeiro: ");
+		venda1 = s.nextDouble();
+		System.out.println("Informe a venda do mês de Fevereiro: ");
+		venda2 = s.nextDouble();
+		System.out.println("Informe a venda do mês de Março: ");
+		venda3 = s.nextDouble();
+		System.out.println("Informe a venda do mês de Abril: ");
+		venda4 = s.nextDouble();
+		
+		mediaVenda = (venda1 + venda2 + venda3 + venda4)/4;
+		System.out.println("A média de venda feitas pelo " + vendedor + " dos últimos 4 meses foram de R$" + mediaVenda);
+		mediaVenda = s.nextDouble();
+		System.out.println("----------------------------------------");
+	}
+}

@@ -1,0 +1,9 @@
+package atividades;
+
+public class Atividade3 {
+	public static void main(String[] args) {
+		System.out.println("Escolha a opção:");
+		System.out.println("1 - Mostre a frase em caixa baixa");
+		System.out.println("2 - Mostre a frase em caixa alta");
+	}
+}

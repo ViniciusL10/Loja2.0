@@ -1,0 +1,9 @@
+package classes;
+
+public class Executa {
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno("Joao", 8);
+		
+		
+	}
+}

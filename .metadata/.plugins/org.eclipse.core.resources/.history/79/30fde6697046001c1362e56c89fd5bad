@@ -1,0 +1,30 @@
+package atividades;
+
+import java.util.Scanner;
+
+public class Atividade3 {
+	public static int opcao1;
+	public static int opcao2;
+	public static String nome;
+
+	public static void main(String[] args) {
+		opcao1 = 1;
+		opcao2 = 2;
+		nome = "";
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("Digite seu nome completo");
+		nome = s.nextLine();
+		
+		System.out.println("Escolha a opção:");
+		System.out.println("1 - Mostre a frase em caixa baixa");
+		System.out.println("2 - Mostre a frase em caixa alta");
+		
+		if(opcao1 == 1) {
+			System.out.println(nome = s.nextLine().toLowerCase());
+		}else if(opcao2 == 2) {
+			System.out.println(nome = s.nextLine().toUpperCase());
+		}
+	
+	}
+}

@@ -1,0 +1,25 @@
+package escola;
+
+public class Aluno extends Pessoa{
+	private int matricula;
+	
+	public Aluno(int matricula, String nome) {
+		super(nome);
+		this.matricula = matricula;
+		
+	}
+	
+	public String toString() {
+		return "Matricula: " + matricula + " Nome: " + nome;
+	}
+	
+	public int getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(int matricula) {
+		this.matricula = matricula;
+	}
+	
+	
+}

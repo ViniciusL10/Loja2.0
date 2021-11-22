@@ -1,0 +1,11 @@
+1637019859258	Convert local variable 'tipoByte' to field
+1637019869030	Convert local variable 'tipoShort' to field
+1637019890208	Convert local variable 'tipoChar' to field
+1637019893713	Convert local variable 'tipoFloat' to field
+1637019896379	Convert local variable 'tipoDouble' to field
+1637019899515	Convert local variable 'tipoLong' to field
+1637019903949	Convert local variable 'tipoInt' to field
+1637019906127	Convert local variable 'tipoBoolean' to field
+1637020610335	Convert local variable 'opcao1' to field
+1637020613188	Convert local variable 'opcao2' to field
+1637020671466	Convert local variable 'nome' to field

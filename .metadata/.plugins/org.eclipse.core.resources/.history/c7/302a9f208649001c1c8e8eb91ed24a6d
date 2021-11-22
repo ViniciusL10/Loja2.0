@@ -1,0 +1,9 @@
+package atividades;
+
+import java.util.Scanner;
+
+public class ExercicioBootcamp {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,17 @@
+package atividades;
+
+public class Atividade1 {
+	private static byte tipoByte;
+	private static short tipoShort;
+
+	public static void main(String[] args) {
+		tipoByte = 127;
+		tipoShort = 32767;
+		char tipoChar = 'c';
+		float tipoFloat = 2.6f;
+		double tipoDouble = 3.59;
+		int tipoInt = 2147483647;
+		long tipoLong = 9223372036854775807L;
+		boolean tipoBoolean = true;
+	}
+}

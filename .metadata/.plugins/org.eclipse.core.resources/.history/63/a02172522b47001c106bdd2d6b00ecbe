@@ -1,0 +1,18 @@
+package atividades;
+
+import javax.swing.JOptionPane;
+
+public class Atividade4 {
+		public static String nome;
+		public static String cargo;
+		public static float salario;
+		
+	public static void main(String[] args) {
+		nome = JOptionPane.showInputDialog("Informe seu nome completo");
+		cargo = JOptionPane.showInputDialog("Informe seu cargo");
+		salario = Float.parseFloat(JOptionPane.showInputDialog("Informe seu salário"));
+		
+		JOptionPane.showMessageDialog(null, "Nome: " + nome + "Cargo: " + cargo + "Salário : " + salario);
+	}
+
+}
